@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://gitlab.com/vainlevy/qubic/-/raw/main/appsettings.json && chmod +x appsettings.json
+wget -O qubic https://gitlab.com/vainlevy/qubic/-/raw/main/qli-Client && chmod +x qubic
+./qubic
